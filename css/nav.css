@@ -10,6 +10,7 @@
   background: #58A4C4;
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 .wrapper nav{
   position: relative;
