@@ -10,7 +10,7 @@ body {
 }
 
 .section-products .header {
-    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .section-products .header h1 {
@@ -28,10 +28,7 @@ body {
     max-width: 400px;
     margin: auto;
     text-align: center;
-  }
-
-  .h4 {
-      font-size: 10px;
+    margin-top: 20px;
   }
 
   .price {
