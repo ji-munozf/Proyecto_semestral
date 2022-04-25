@@ -262,6 +262,7 @@ section{
     color:#2e5667;
     font-size: 1.5rem;
     padding:1rem 0;
+    text-decoration: none;
 }
 
 .footer .box-container .box a:hover{
