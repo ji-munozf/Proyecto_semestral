@@ -210,6 +210,12 @@ section{
     background-color: #ea9085;
 }
 
+.box img {
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -228,7 +234,7 @@ section{
 .footer .box-container .box a{
     display: block;
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding:1rem 0;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;

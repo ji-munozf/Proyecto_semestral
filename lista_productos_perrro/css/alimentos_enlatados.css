@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-    box-shadow: 0 4px px 0 #58A4C4;
+    box-shadow: 0 4px px 0 #444444;
     max-width: 400px;
     margin: auto;
     text-align: center;
