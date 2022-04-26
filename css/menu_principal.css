@@ -82,6 +82,10 @@ section{
     line-height: 1.5;
 }
 
+.product h1 {
+    background-color: #ea9085;
+}
+
 .about .row{
     display: flex;
     align-items: center;
