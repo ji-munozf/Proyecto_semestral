@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
 *{
     margin:0; padding:0;
     box-sizing: border-box;
@@ -24,7 +27,6 @@ section{
     color:#fff;
     padding:1rem;
     margin:2rem 0;
-    background:#58a4c4;
 }
 
 .heading span{
@@ -50,7 +52,7 @@ section{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(/img/home-bg.jpg) no-repeat;
+    background:url(/img/home-bg.jpg) no-repeat ;
     background-size: cover;
     background-position: center;
 }
@@ -60,15 +62,17 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
-    color:#58a4c4;
+    font-size: 8rem;
+    color:#d45079;
+    font-family: 'Titan One', cursive;
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color: #457f97;
+    color: #6e5773;
     padding:1rem 0;
     line-height: 1.5;
+    font-family: 'Comfortaa', cursive;
 }
 
 .home .content p{
@@ -87,25 +91,29 @@ section{
     padding-bottom: 3rem;
 }
 
+.about h1 {
+    background-color: #ea9085;
+}
+
 .about .row .content{
     flex:1 1 40rem;
 }
 
 .about .row .content h3{
     font-size: 3rem;
-    color:#58a4c4;
+    color:#d45079;
 }
 
 .about .row .content p{
     font-size: 1.5rem;
-    color:#999;
+    color:#000;
     padding:.5rem 0;
     padding-top: 1rem;
     line-height: 1.5;
 }
 
 .icons-container{
-    background:#58a4c4;
+    background:#ea9085;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
@@ -138,71 +146,15 @@ section{
     font-size: 1.3rem;
 }
 
-
-
-.review .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.review .box-container .box{
-    flex:1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
-    border-radius: .5rem;
-    padding:3rem 2rem;
-    position: relative;
-    border:.1rem solid rgba(0,0,0,.1);
-}
-
-.review .box-container .box .fa-quote-right{
-    position: absolute;
-    bottom:3rem; right:3rem;
-    font-size: 6rem;
-    color:#eee;
-}
-
-.review .box-container .box .stars i{
-    color:var(--pink);
-    font-size: 2rem;
-}
-
-.review .box-container .box p{
-    color:#999;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    padding-top: 2rem;
-}
-
-.review .box-container .box .user{
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-}
-
-.review .box-container .box .user img{
-    height:6rem;
-    width:6rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 1rem;
-}
-
-.review .box-container .box .user h3{
-    font-size: 2rem;
-    color:#333;
-}
-
-.review .box-container .box .user span{
-    font-size: 1.5rem;
-    color:#999;
-}
-
 .contact .row{
     display: flex;
     flex-wrap: wrap-reverse;
     gap:1.5rem;
     align-items: center;
+}
+
+.contact h1 {
+    background-color: #ea9085;
 }
 
 .contact .row form{
@@ -222,10 +174,18 @@ section{
     width: 100%;
 }
 
+.contact .btn {
+    background-color: #ea9085;
+}
+
+.contact .btn:hover {
+    color: #6e5773;
+}
+
 .contact .row form .box{
     padding:1rem;
     font-size: 1.7rem;
-    color:#333;
+    color:#6e5773;
     text-transform: none;
     border:.1rem solid rgba(0,0,0,.1);
     border-radius: .5rem;
@@ -242,6 +202,10 @@ section{
     resize: none;
 }
 
+.footer {
+    background-color: #ea9085;
+}
+
 .footer .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -252,22 +216,22 @@ section{
 }
 
 .footer .box-container .box h3{
-    color:#58a4c4;
+    color:#fff;
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
 .footer .box-container .box a{
     display: block;
-    color:#2e5667;
+    color:#fff;
     font-size: 1.5rem;
     padding:1rem 0;
     text-decoration: none;
+    font-family: 'Comfortaa', cursive;
 }
 
 .footer .box-container .box a:hover{
-    color:var(--pink);
-    text-decoration: underline;
+    color:#6e5773;
 }
 
 .footer .box-container .box  img{
@@ -291,10 +255,6 @@ section{
 
 /* media queries  */
 @media (max-width:991px){
-    
-    html{
-        font-size: 55%;
-    }
 
     header{
         padding:2rem;

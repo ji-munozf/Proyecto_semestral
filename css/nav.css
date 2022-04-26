@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-  background: #58A4C4;
+  background: #ea9085;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -31,7 +31,7 @@ nav .content .links{
   margin: 0 0 -6px 0;
 }
 img {
-  width: 50px;
+  width: 70px;
   padding-right: 7px;
   padding-bottom: 4px;
 }
@@ -60,7 +60,7 @@ img {
 }
 .content .links li a:hover,
 .content .links li label:hover{
-  background: #58A4C4;
+  background: #ea9085;
 }
 .wrapper .search-icon,
 .wrapper .menu-icon{
@@ -98,7 +98,7 @@ img {
   outline: none;
   font-size: 17px;
   color: #fff;
-  background: #58A4C4;
+  background: #ea9085;
   padding: 0 100px 0 15px;
 }
 .search-box input::placeholder{
@@ -111,7 +111,7 @@ img {
   transform: translateY(-50%);
   line-height: 60px;
   width: 70px;
-  background: #58A4C4;
+  background: #ea9085;
   border: none;
   outline: none;
   color: #fff;
@@ -125,7 +125,7 @@ img {
 /* Dropdown Menu code start */
 .content .links ul{
   position: absolute;
-  background: #58A4C4;
+  background: #ea9085;
   top: 80px;
   z-index: -1;
   opacity: 0;
@@ -161,11 +161,17 @@ img {
     max-width: 100%;
     padding: 0 20px;
   }
-  nav .content .links{
-    margin-right: 30px;
+
+  .content .logo a{
+    font-size: 20px;
   }
+
+  .content img {
+    width: 50px;
+  }
+  
   .content .links li a{
-    font-size: 18px;
+    font-size: 14px;
   }
   .wrapper .search-box{
     max-width: calc(100% - 100px);
@@ -185,7 +191,7 @@ img {
   nav .content .links{
     display: block;
     position: fixed;
-    background: #58A4C4;
+    background: #ea9085;
     height: 100%;
     width: 100%;
     top: 70px;

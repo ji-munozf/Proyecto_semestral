@@ -31,6 +31,10 @@ body {
     margin-top: 20px;
   }
 
+.card h4 {
+  color: #6e5773;
+}
+
   .price {
     color: grey;
     font-size: 22px;
@@ -41,7 +45,7 @@ body {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #58A4C4;
+    background-color: #ea9085;
     text-align: center;
     cursor: pointer;
     width: 100%;
