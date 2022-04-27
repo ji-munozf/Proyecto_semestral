@@ -1,0 +1,11 @@
+body {
+    background: #ffe25f;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    padding-top: 70px;
+}
+
+.bg {
+    background-image: url(/login/images/Dog_img.jpg);
+    background-position: center center;
+}
+
