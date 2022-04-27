@@ -78,7 +78,7 @@ section{
 }
 
 .product h1 {
-    background-color: #ea9085;
+    background-color: #FFA860;
 }
 
 .about .row{
@@ -91,7 +91,7 @@ section{
 }
 
 .about h1 {
-    background-color: #ea9085;
+    background-color: #FFA860;
 }
 
 .about .row .content{
@@ -104,7 +104,7 @@ section{
 }
 
 .about .row .content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:#000;
     padding:.5rem 0;
     padding-top: 1rem;
@@ -112,7 +112,7 @@ section{
 }
 
 .icons-container{
-    background:#ea9085;
+    background:#FFA860;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
@@ -153,7 +153,7 @@ section{
 }
 
 .contact h1 {
-    background-color: #ea9085;
+    background-color: #FFA860;
 }
 
 .contact .row form{
@@ -229,7 +229,7 @@ section{
 .footer .box-container .box a{
     display: block;
     color:#fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding:1rem 0;
     text-decoration: none;
     font-family: 'Comfortaa', cursive;
