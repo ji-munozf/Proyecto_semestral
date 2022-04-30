@@ -12,6 +12,8 @@ body {
     text-decoration: none;
 }
 
-form {
+.aviso {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 1rem;
 }
-

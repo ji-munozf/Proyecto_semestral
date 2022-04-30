@@ -169,6 +169,12 @@ section{
     flex:1 1 40rem;
 }
 
+.contact .aviso {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
 .contact .row .image img{
     width: 100%;
 }
