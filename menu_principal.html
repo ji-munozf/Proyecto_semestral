@@ -339,11 +339,11 @@
   <section class="contact" id="contact">
     <h1 class="heading"> <span> ¿tienes una duda? </span> contactanos </h1>
     <div class="row">
-      <form action="" method="POST" id="contact1">
-        <input type="text" placeholder="Nombre" id="nombre" required class="box">
-        <input type="email" placeholder="Correo" id="email" required class="box">
+      <form action="" method="POST" id="contact">
+        <input type="text" placeholder="Nombre" id="nombre" pattern="[A-Za-z\u00f1\u00d1 ]+" title="Solo se permiten letras" maxlength="60" required class="box">
+        <input type="email" placeholder="Correo" id="email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="El correo debe ser de la siguiente manera: example@domino.algo" required class="box">
         <input type="number" placeholder="Número celular" id="number" required class="box">
-        <textarea name="" class="box" placeholder="Mensaje" required id="mensaje" cols="30" rows="10" maxlength="500"></textarea>
+        <textarea name="mensaje" class="box" placeholder="Mensaje" required id="mensaje" cols="30" rows="10" maxlength="500"></textarea>
         <input type="submit" id="send" value="Enviar mensaje" class="btn">
         <p class="aviso" id="aviso"></p>
       </form>

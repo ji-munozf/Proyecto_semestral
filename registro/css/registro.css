@@ -8,12 +8,18 @@ body {
     background-position: center center;
 }
 
-.my-3 span{
-    text-decoration: none;
-}
-
 .aviso {
     text-align: center;
     font-size: 1.3rem;
     padding-top: 1rem;
+}
+
+.d-grid .btn {
+    background-color: #d45079;
+    border-color: #d45079;
+}
+
+.d-grid .btn:hover {
+    background-color: #ac3e61;
+    border-color: #ac3e61;
 }

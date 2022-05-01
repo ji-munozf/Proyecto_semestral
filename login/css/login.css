@@ -9,3 +9,12 @@ body {
     background-position: center center;
 }
 
+.d-grid .btn {
+    background-color: #d45079;
+    border-color: #d45079;
+}
+
+.d-grid .btn:hover {
+    background-color: #ac3e61;
+    border-color: #ac3e61;
+}

@@ -5,6 +5,7 @@ var pass2 = document.getElementById("password2");
 var aviso = document.getElementById("aviso");
 const registro = document.getElementById("registro");
 
+
 registro.addEventListener("submit", e =>{
    
     e.preventDefault();
