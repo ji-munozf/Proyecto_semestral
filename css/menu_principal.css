@@ -6,7 +6,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -39,10 +38,6 @@ section{
     font-size: 1.7rem;
 }
 
-.btn:hover{
-    background:#2e5667;
-}
-
 .home{
     display: flex;
     align-items: center;
@@ -72,7 +67,7 @@ section{
 
 .home .content p{
     font-size: 1.5rem;
-    color:#999;
+    color:rgb(66, 66, 66);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -184,7 +179,9 @@ section{
 }
 
 .contact .btn:hover {
-    color: #6e5773;
+    background-color: #cc7d72;
+    color: #fff;
+
 }
 
 .contact .row form .box{

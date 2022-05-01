@@ -13,13 +13,14 @@ body {
 }
 
 .section-products .header h1 {
-    font-size: 3rem;
-    color: #FE6240;
-    font-weight: 500px;
+  font-size: 70px;
+  color: #FE6240;
+  font-weight: 500px;
 }
 
 .section-products .header h3 {
-    color: #444444; 
+    color: #444444;
+    font-size: 22px; 
 }
 
 .card {
@@ -53,4 +54,9 @@ body {
   
   .card button:hover {
     opacity: 0.7;
+  }
+
+  .paginacion {
+    font-size: 22px; 
+    padding-bottom: 20px;
   }

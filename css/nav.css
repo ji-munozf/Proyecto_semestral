@@ -63,6 +63,10 @@ img {
   background: #ea9085;
 }
 
+.desktop-link-submenu {
+  margin-right: 50px;
+}
+
 .wrapper .search-icon,
 .wrapper .menu-icon{
   color: #fff;
@@ -231,6 +235,10 @@ img {
     display: none;
   }
 
+  .content .links li a.desktop-link-submenu {
+    display: none;
+  }
+
   /* dropdown responsive code start */
   .content .links ul,
   .content .links ul ul{
@@ -243,7 +251,11 @@ img {
   }
   .content .links #show-perros:checked ~ ul,
   .content .links #show-gato:checked ~ ul,
-  .content .links #show-otros:checked ~ ul{
+  .content .links #show-otros:checked ~ ul,
+  .content .links #show-conejos:checked ~ ul,
+  .content .links #show-erizo:checked ~ ul,
+  .content .links #show-hamster:checked ~ ul,
+  .content .links #show-hurones:checked ~ ul{
     max-height: 100vh;
   }
   .content .links ul li{
